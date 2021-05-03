@@ -1,6 +1,6 @@
 // import React, {useState} from 'react'
-// import {  
-//     MenuItem, 
+// import {
+//     MenuItem,
 // } from '@material-ui/core';
 
 // const MenuItems = () => {
@@ -9,7 +9,7 @@
 //     const handleClick = (event) => {
 //       setAnchorEl(event.currentTarget);
 //     };
-  
+
 //     const handleClose = () => {
 //       setAnchorEl(null);
 //     };
@@ -30,34 +30,34 @@
 // export default MenuItems
 
 const MenuItems = [
-    {
-      menuTitle: "Inicio",
-      pageURL: "/",
-    },
-    {
-      menuTitle: "Nosotros",
-      pageURL: "/nosotros",
-    },
-    {
-      menuTitle: "Nuestro proceso",
-      pageURL: "/proceso",
-    },
-    {
-      menuTitle: "¿Trabajamos?",
-      pageURL: "/trabajamos",
-    },
-    {
-    menuTitle: "Contacto",
-    pageURL: "/contacto",
-    },
-    {
-    menuTitle: "Portafolio",
-    pageURL: "/portafolio",
-    },
-    {
+  {
+    menuTitle: 'Inicio',
+    pageURL: '/'
+  },
+  {
+    menuTitle: 'Nosotros',
+    pageURL: '/nosotros'
+  },
+  {
+    menuTitle: 'Nuestro proceso',
+    pageURL: '/proceso'
+  },
+  {
+    menuTitle: '¿Trabajamos?',
+    pageURL: '/trabajamos'
+  },
+  {
+    menuTitle: 'Contacto',
+    pageURL: '/contacto'
+  },
+  {
+    menuTitle: 'Portafolio',
+    pageURL: '/portafolio'
+  },
+  {
     menuTitle: "FAQ's",
-    pageURL: "/faqs",
-    },
-  ];
+    pageURL: '/faqs'
+  }
+]
 
-  export default MenuItems;
+export default MenuItems

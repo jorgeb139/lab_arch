@@ -1,47 +1,47 @@
-import React, {useState} from 'react';
-import MenuIcon from '@material-ui/icons/Menu';
-import { 
-    Box, 
-    Menu, 
-    makeStyles, 
-    AppBar,
-    Toolbar,
-    IconButton,
-    Button,
-    MenuItem
-} from '@material-ui/core';
-import { NavLink } from 'react-router-dom';
+import React, { useState } from 'react'
+import MenuIcon from '@material-ui/icons/Menu'
+import {
+  Box,
+  Menu,
+  makeStyles,
+  AppBar,
+  Toolbar,
+  IconButton,
+  Button,
+  MenuItem
+} from '@material-ui/core'
+import { NavLink } from 'react-router-dom'
 
 import logo from '../../assets/images/logo_blanco_largo_invertido2.png'
-import MenuItems from './MenuItems';
+import MenuItems from './MenuItems'
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    display: 'flex',
+    display: 'flex'
   },
   containerLogo: {
-    flexGrow: 1,
+    flexGrow: 1
   },
   logo: {
-    maxWidth: "140px",
-    padding: "10px",
+    maxWidth: '140px',
+    padding: '10px',
     [theme.breakpoints.down('xs')]: {
-        maxWidth: "100px"
-    },
-  },
-}));
+      maxWidth: '100px'
+    }
+  }
+}))
 
 const HeaderMobile = () => {
-  const classes = useStyles();
-  const [anchorEl, setAnchorEl] = useState(null);
+  const classes = useStyles()
+  const [anchorEl, setAnchorEl] = useState(null)
 
   const handleClick = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
+    setAnchorEl(event.currentTarget)
+  }
 
   const handleClose = () => {
-    setAnchorEl(null);
-  };
+    setAnchorEl(null)
+  }
 
   return (
     <div className={classes.root}>
@@ -51,7 +51,7 @@ const HeaderMobile = () => {
                     <img src={logo} alt="lab_arch" className={classes.logo}/>
                 </Box>
                 <div>
-                    <IconButton 
+                    <IconButton
                         onClick={handleClick}
                         color="secondary"
                     >
@@ -64,31 +64,31 @@ const HeaderMobile = () => {
                         onClose={handleClose}
                         getContentAnchorEl={null}
                         anchorOrigin={{
-                            vertical: 'center',
-                            horizontal: 'left',
+                          vertical: 'center',
+                          horizontal: 'left'
                         }}
                         transformOrigin={{
-                            vertical: 'top',
-                            horizontal: 'right',
+                          vertical: 'top',
+                          horizontal: 'right'
                         }}
                     >
                         <MenuItem className = "menuMobile">
                             {MenuItems.map((menuItem) => {
-                            const { menuTitle, pageURL } = menuItem;
-                                return (
+                              const { menuTitle, pageURL } = menuItem
+                              return (
                                 <Button
                                     key={`${menuTitle}`}
                                     color="secondary"
                                 >
-                                    <NavLink 
-                                    exact to={pageURL} 
+                                    <NavLink
+                                    exact to={pageURL}
                                     className ="linksMobile"
                                     activeClassName = "active"
                                     >
                                     {menuTitle}
                                     </NavLink>
                                 </Button>
-                                );
+                              )
                             })}
                         </MenuItem>
                     </Menu>
@@ -96,7 +96,7 @@ const HeaderMobile = () => {
             </Toolbar>
         </AppBar>
     </div>
-  );
+  )
 }
 
-export default HeaderMobile;
+export default HeaderMobile

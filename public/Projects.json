@@ -1,0 +1,93 @@
+[
+  {
+    "id":1,
+    "tittle": "Casa cubitos",
+    "sqr_mts": "200m2",
+    "ubication": "Pueblo Llano, Mérida - Venezuela",
+    "date": "20-01-2019",
+    "materials": "Concreto",
+    "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut scelerisque purus, ac faucibus ex. Nullam vel turpis tincidunt, lobortis.",
+    "principalPicture":"https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_1280.jpg",
+    "picture3":"https://albaciudad.org/wp-content/uploads/2016/09/pasticho-de-berenjena.jpg",
+    "picture4":"https://albaciudad.org/wp-content/uploads/2016/09/pasticho-de-berenjena.jpg",
+    "picture5":"https://albaciudad.org/wp-content/uploads/2016/09/pasticho-de-berenjena.jpg"
+  },
+  {
+    "id":2,
+    "tittle": "Casa familiar",
+    "sqr_mts": "project.sqr_mts",
+    "ubication": "project.ubication",
+    "date": "project.date",
+    "materials": "Madera",
+    "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut scelerisque purus, ac faucibus ex. Nullam vel turpis tincidunt, lobortis.",
+    "principalPicture":"https://cdn.pixabay.com/photo/2016/11/18/17/46/house-1836070_1280.jpg",
+    "picture3":"https://albaciudad.org/wp-content/uploads/2016/09/pasticho-de-berenjena.jpg",
+    "picture4":"https://albaciudad.org/wp-content/uploads/2016/09/pasticho-de-berenjena.jpg",
+    "picture5":"https://albaciudad.org/wp-content/uploads/2016/09/pasticho-de-berenjena.jpg"
+  },
+  {
+    "id":3,
+    "tittle": "Casa San Francisco",
+    "sqr_mts": "project.sqr_mts",
+    "ubication": "project.ubication",
+    "date": "project.date",
+    "materials": "Cartón piedra",
+    "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut scelerisque purus, ac faucibus ex. Nullam vel turpis tincidunt, lobortis.",
+    "principalPicture":"https://cdn.pixabay.com/photo/2013/11/13/21/14/san-francisco-210230_1280.jpg",
+    "picture3":"https://albaciudad.org/wp-content/uploads/2016/09/pasticho-de-berenjena.jpg",
+    "picture4":"https://albaciudad.org/wp-content/uploads/2016/09/pasticho-de-berenjena.jpg",
+    "picture5":"https://albaciudad.org/wp-content/uploads/2016/09/pasticho-de-berenjena.jpg"
+  },
+  {
+    "id":4,
+    "tittle": "Casa piedra",
+    "sqr_mts": "project.sqr_mts",
+    "ubication": "project.ubication",
+    "date": "project.date",
+    "materials": "Concreto",
+    "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut scelerisque purus, ac faucibus ex. Nullam vel turpis tincidunt, lobortis.",
+    "principalPicture":"https://cdn.pixabay.com/photo/2014/11/21/17/17/house-540796_1280.jpg",
+    "picture3":"https://albaciudad.org/wp-content/uploads/2016/09/pasticho-de-berenjena.jpg",
+    "picture4":"https://albaciudad.org/wp-content/uploads/2016/09/pasticho-de-berenjena.jpg",
+    "picture5":"https://albaciudad.org/wp-content/uploads/2016/09/pasticho-de-berenjena.jpg"  
+  },
+  {
+    "id":5,
+    "tittle": "Casa embrujada",
+    "sqr_mts": "project.sqr_mts",
+    "ubication": "project.ubication",
+    "date": "project.date",
+    "materials": "Concreto",
+    "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut scelerisque purus, ac faucibus ex. Nullam vel turpis tincidunt, lobortis.",
+    "principalPicture":"https://cdn.pixabay.com/photo/2018/03/18/15/26/villa-3237114_1280.jpg",
+    "picture3":"https://albaciudad.org/wp-content/uploads/2016/09/pasticho-de-berenjena.jpg",
+    "picture4":"https://albaciudad.org/wp-content/uploads/2016/09/pasticho-de-berenjena.jpg",
+    "picture5":"https://albaciudad.org/wp-content/uploads/2016/09/pasticho-de-berenjena.jpg"  
+  },
+  {
+    "id":6,
+    "tittle": "Casa bosque",
+    "sqr_mts": "project.sqr_mts",
+    "ubication": "project.ubication",
+    "date": "project.date",
+    "materials": "Concreto",
+    "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut scelerisque purus, ac faucibus ex. Nullam vel turpis tincidunt, lobortis.",
+    "principalPicture":"https://cdn.pixabay.com/photo/2016/12/06/14/33/log-cabin-1886620_1280.jpg",
+    "picture3":"https://albaciudad.org/wp-content/uploads/2016/09/pasticho-de-berenjena.jpg",
+    "picture4":"https://albaciudad.org/wp-content/uploads/2016/09/pasticho-de-berenjena.jpg",
+    "picture5":"https://albaciudad.org/wp-content/uploads/2016/09/pasticho-de-berenjena.jpg"  
+  },
+  {
+    "id":7,
+    "tittle": "Casa castillo",
+    "sqr_mts": "project.sqr_mts",
+    "ubication": "project.ubication",
+    "date": "project.date",
+    "materials": "Concreto",
+    "details":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut scelerisque purus, ac faucibus ex. Nullam vel turpis tincidunt, lobortis.",
+    "principalPicture":"https://cdn.pixabay.com/photo/2018/01/09/12/20/hamburg-3071437_1280.jpg",
+    "picture3":"https://albaciudad.org/wp-content/uploads/2016/09/pasticho-de-berenjena.jpg",
+    "picture4":"https://albaciudad.org/wp-content/uploads/2016/09/pasticho-de-berenjena.jpg",
+    "picture5":"https://albaciudad.org/wp-content/uploads/2016/09/pasticho-de-berenjena.jpg"  
+  }
+]

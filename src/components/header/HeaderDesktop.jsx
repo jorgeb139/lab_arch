@@ -1,26 +1,26 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Button from '@material-ui/core/Button';
+import React from 'react'
+import { makeStyles } from '@material-ui/core'
+import AppBar from '@material-ui/core/AppBar'
+import Toolbar from '@material-ui/core/Toolbar'
+import Button from '@material-ui/core/Button'
 
 import logo from '../../assets/images/logo_blanco_largo_invertido2.png'
-import MenuItems from './MenuItems';
-import { NavLink } from 'react-router-dom';
-import "../../App.css";
+import MenuItems from './MenuItems'
+import { NavLink } from 'react-router-dom'
+import './Styles.css'
 
 const useStyles = makeStyles(() => ({
   containerLogo: {
-    flexGrow: 1,
+    flexGrow: 1
   },
   logo: {
-        maxWidth: "160px",
-        padding: "10px",
-  },
-}));
+    maxWidth: '160px',
+    padding: '10px'
+  }
+}))
 
 const HeaderDesktop = () => {
-  const classes = useStyles();
+  const classes = useStyles()
 
   return (
     <>
@@ -31,27 +31,27 @@ const HeaderDesktop = () => {
           </div>
           <div>
             {MenuItems.map((menuItem) => {
-              const { menuTitle, pageURL } = menuItem;
-                return (
+              const { menuTitle, pageURL } = menuItem
+              return (
                   <Button
                     key={`${menuTitle}`}
                     color="secondary"
                   >
-                    <NavLink 
-                      exact to={pageURL} 
+                    <NavLink
+                      exact to={pageURL}
                       className ="links"
                       activeClassName = "active"
                     >
                       {menuTitle}
                     </NavLink>
                   </Button>
-                );
+              )
             })}
           </div>
         </Toolbar>
       </AppBar>
     </>
-  );
-};
+  )
+}
 
-export default HeaderDesktop;
+export default HeaderDesktop

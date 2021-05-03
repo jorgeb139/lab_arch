@@ -73,14 +73,13 @@
 // export default Header;
 
 import React from 'react'
-import { Hidden } from '@material-ui/core';
+import { Hidden } from '@material-ui/core'
 
-import HeaderDesktop from './HeaderDesktop';
-import HeaderMobile from './HeaderMobile';
+import HeaderDesktop from './HeaderDesktop'
+import HeaderMobile from './HeaderMobile'
 
 const Header = () => {
-
-    return (
+  return (
         <div>
             <Hidden smDown>
               <HeaderDesktop/>
@@ -89,7 +88,7 @@ const Header = () => {
               <HeaderMobile/>
             </Hidden>
         </div>
-    )
-};
+  )
+}
 
-export default Header;
+export default Header
