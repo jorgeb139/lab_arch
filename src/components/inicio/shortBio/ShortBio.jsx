@@ -1,7 +1,7 @@
 import React from 'react'
 import { Grid, makeStyles, Typography } from '@material-ui/core'
 
-import logo from '../../assets/images/imagotipo.png'
+import logo from '../../../assets/images/imagotipo.png'
 
 const useStyles = makeStyles((theme) => ({
   root: {

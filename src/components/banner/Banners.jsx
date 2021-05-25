@@ -12,7 +12,7 @@ import imgPortafolio from '../../assets/images/portada_portafolio.jpg'
 import imgFaqs from '../../assets/images/portada_faqs.jpg'
 import DialogBox from './DialogBox'
 
-const useStyles = makeStyles(() => ({
+const useStyles = makeStyles((theme) => ({
   Banner: {
     zIndex: -1,
     height: '80vh',
@@ -61,11 +61,7 @@ const Banner = ({ bannerId, tittle, textBody, textButton }) => {
         }
       )} >
       </Grid>
-        <DialogBox
-          tittle={tittle}
-          textBody={textBody}
-          textButton={textButton}
-        />
+      {tittle ? (<DialogBox tittle={tittle} textBody={textBody} textButton={textButton}/>) : []}
     </Grid>
   )
 }

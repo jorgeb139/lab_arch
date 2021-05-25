@@ -95,25 +95,6 @@ const Cards = () => {
         ))}
       </motion.div>
     </motion.div>
-
-  // <Card className={classes.root}>
-  //   <CardActionArea>
-  //     <CardMedia
-  //       className={classes.media}
-  //       image={projects[0].principalPicture}
-  //       title="Contemplative Reptile"
-  //     />
-  //     <CardContent>
-  //       <Typography className={classes.title}>
-  //         {projects[0].tittle}
-  //       </Typography>
-  //       <Typography className={classes.description}>
-  //         <strong>Ubicación: </strong>
-  //         {projects[0].ubication}
-  //       </Typography>
-  //     </CardContent>
-  //   </CardActionArea>
-  // </Card>
   )
 }
 

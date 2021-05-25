@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
     color: theme.palette.text.secondary,
     fontWeight: 'bold',
     fontSize: '0.9rem',
-    background: 'gray'
+    background: 'rgba(0, 0, 0, 0.24)'
   },
   icon: {
     paddingRight: '10px',
@@ -50,32 +50,32 @@ const Footer = () => {
   const classes = useStyles()
 
   return (
-        <div className={classes.root}>
-            <Grid container>
-                <Grid item xs={12} sm={6} className={classes.containers} >
-                    <Box className={classes.tittle_section}>
-                        Contact
-                    </Box>
-                    <MapFooter/>
-                </Grid>
-                <Grid item xs={12} sm={6} className={classes.containers} >
-                    <Box className={classes.tittle_section}>
-                        Social
-                    </Box>
-                    <MapFooter menuType={'SocialNetworks'}/>
-                </Grid>
-                <Grid item xs={12}>
-                    <Box className={classes.container_copyright}>
-                        <label style={{ fontWeight: 'normal' }}>
-                            Website made by:
-                        </label>
-                        <label style={{ fontWeight: 'bold' }}>
-                            {' Jorge Burguera'}
-                        </label>
-                    </Box>
-                </Grid>
-            </Grid>
-        </div>
+    <div className={classes.root}>
+      <Grid container>
+        <Grid item xs={12} sm={6} className={classes.containers} >
+          < Box className={classes.tittle_section}>
+            Contact
+          </Box>
+          <MapFooter/>
+        </Grid>
+        <Grid item xs={12} sm={6} className={classes.containers} >
+          <Box className={classes.tittle_section}>
+            Social
+          </Box>
+          <MapFooter menuType={'SocialNetworks'}/>
+        </Grid>
+        <Grid item xs={12}>
+          <Box className={classes.container_copyright}>
+            <label style={{ fontWeight: 'normal' }}>
+              Website made by:
+            </label>
+            <label style={{ fontWeight: 'bold' }}>
+              {' Jorge Burguera'}
+            </label>
+          </Box>
+        </Grid>
+      </Grid>
+    </div>
   )
 }
 

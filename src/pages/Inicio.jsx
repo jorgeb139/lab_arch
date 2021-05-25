@@ -1,9 +1,9 @@
 import React from 'react'
 
 import Banner from '../components/banner/Banners'
-import DiagonalDiv from '../components/diagonalDiv/DiagonalDiv'
-import PortfolioCarousel from '../components/portfolio/carousel/PortfolioCarousel'
-import ShortBio from '../components/shortBio/ShortBio'
+import DiagonalDiv from '../components/inicio/diagonalDiv/DiagonalDiv'
+import PortfolioCarousel from '../components/inicio/portfolio/PortfolioCarousel'
+import ShortBio from '../components/inicio/shortBio/ShortBio'
 
 const DialogParams = {
   bannerId: 'Inicio',

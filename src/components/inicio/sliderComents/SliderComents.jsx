@@ -55,19 +55,16 @@ const testimonios = [
 ]
 
 console.log(testimonios[0].id)
-
+/* eslint-disable */
 const SliderComents = () => {
   const [comentario, setComentario] = useState(testimonios[0])
-  // const [anchorEl, setAnchorEl] = useState(null);
   const classes = useStyles()
 
   const handleClose = () => {
-    // setAnchorEl("Hola");
     console.log(comentario)
   }
 
   const handleBackwardClick = () => {
-    // setComentario=(null)
     console.log(comentario)
   }
 
@@ -76,23 +73,6 @@ const SliderComents = () => {
   }
 
   return (
-  // <Grid container className={classes.root}>
-  //   <Grid item md={2}>
-  //     flecha
-  //   </Grid>
-  //   <Grid container md={8} className={classes.containerText}>
-  //     <Grid item md={12}>
-  //       Título
-  //     </Grid>
-  //     <Grid item md={12}>
-  //       Cuerpo
-  //     </Grid>
-  //   </Grid>
-  //   <Grid item md={2}>
-  //     flecha 2
-  //   </Grid>
-  // </Grid>
-
     <div className={classes.padre}>
       <div className={classes.contenedorFlechas}>
         <Button onClick={handleClose} className={classes.flechas}>

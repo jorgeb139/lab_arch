@@ -28,12 +28,32 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down('xs')]: {
       maxWidth: '100px'
     }
+  },
+  btn: {
+    color: '#FBCEB1'
+  },
+  initialNavBar: {
+    background: 'transparent'
+  },
+  activeNavBar: {
+    background: 'rgba(0, 0, 0, 0.54)'
   }
 }))
 
 const HeaderMobile = () => {
   const classes = useStyles()
   const [anchorEl, setAnchorEl] = useState(null)
+  const [navBar, setNavBar] = useState(false)
+
+  const changeBackground = () => {
+    if (window.scrollY >= 260) {
+      setNavBar(false)
+    } else {
+      setNavBar(true)
+    }
+  }
+
+  window.addEventListener('scroll', changeBackground)
 
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget)
@@ -45,56 +65,55 @@ const HeaderMobile = () => {
 
   return (
     <div className={classes.root}>
-        <AppBar position="fixed" color='transparent'>
-            <Toolbar>
-                <Box className={classes.containerLogo}>
-                    <img src={logo} alt="lab_arch" className={classes.logo}/>
-                </Box>
-                <div>
-                    <IconButton
-                        onClick={handleClick}
-                        color="secondary"
+      <AppBar className={navBar ? classes.initialNavBar : classes.activeNavBar} elevation={0}>
+        <Toolbar>
+          <Box className={classes.containerLogo}>
+            <img src={logo} alt="lab_arch" className={classes.logo}/>
+          </Box>
+          <div>
+            <IconButton
+              onClick={handleClick}
+              className={classes.btn}
+            >
+              <MenuIcon />
+            </IconButton>
+            <Menu
+              anchorEl={anchorEl}
+              keepMounted
+              open={!!anchorEl}
+              onClose={handleClose}
+              getContentAnchorEl={null}
+              anchorOrigin={{
+                vertical: 'center',
+                horizontal: 'left'
+              }}
+              transformOrigin={{
+                vertical: 'top',
+                horizontal: 'right'
+              }}
+            >
+              <MenuItem className = "menuMobile">
+                {MenuItems.map((menuItem) => {
+                  const { menuTitle, pageURL } = menuItem
+                  return (
+                    <Button
+                      key={`${menuTitle}`}
                     >
-                        <MenuIcon />
-                    </IconButton>
-                    <Menu
-                        anchorEl={anchorEl}
-                        keepMounted
-                        open={!!anchorEl}
-                        onClose={handleClose}
-                        getContentAnchorEl={null}
-                        anchorOrigin={{
-                          vertical: 'center',
-                          horizontal: 'left'
-                        }}
-                        transformOrigin={{
-                          vertical: 'top',
-                          horizontal: 'right'
-                        }}
-                    >
-                        <MenuItem className = "menuMobile">
-                            {MenuItems.map((menuItem) => {
-                              const { menuTitle, pageURL } = menuItem
-                              return (
-                                <Button
-                                    key={`${menuTitle}`}
-                                    color="secondary"
-                                >
-                                    <NavLink
-                                    exact to={pageURL}
-                                    className ="linksMobile"
-                                    activeClassName = "active"
-                                    >
-                                    {menuTitle}
-                                    </NavLink>
-                                </Button>
-                              )
-                            })}
-                        </MenuItem>
-                    </Menu>
-                </div>
-            </Toolbar>
-        </AppBar>
+                      <NavLink
+                      exact to={pageURL}
+                      className ="linksMobile"
+                      activeClassName = "active"
+                      >
+                      {menuTitle}
+                      </NavLink>
+                    </Button>
+                  )
+                })}
+              </MenuItem>
+            </Menu>
+          </div>
+        </Toolbar>
+      </AppBar>
     </div>
   )
 }

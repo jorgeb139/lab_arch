@@ -109,7 +109,7 @@ const DiagonalDiv = () => {
               )}
             >
               <div>
-                <img src = {item.img} alt="Arquitectura biosustentable" className={classes.image}>
+                <img src = {item.img} alt="Arquitectura bioclimática" className={classes.image}>
                 </img>
                 <Typography className={classes.titleTextBlock}>
                   {item.title}
