@@ -1,0 +1,50 @@
+[
+  {
+    "label": "Dormitorio",
+    "id": "ch_dormitorios"
+  },
+  {
+    "label": "Walk-in closet",
+    "id": "ch_walkinCloset"
+  },
+  {
+    "label": "Living",
+    "id": "ch_living"
+  },
+  {
+    "label": "Cocina",
+    "id": "ch_cocina"
+  },
+  {
+    "label": "Estacionamiento",
+    "id": "ch_estacionamiento"
+  },
+  {
+    "label": "Quincho",
+    "id": "ch_quincho"
+  },
+  {
+    "label": "Baño",
+    "id": "ch_banos"
+  },
+  {
+    "label": "Logia",
+    "id": "ch_logia"
+  },
+  {
+    "label": "Comedor",
+    "id": "ch_comedor"
+  },
+  {
+    "label": "Terraza",
+    "id": "ch_terraza"
+  },
+  {
+    "label": "Dormitorio con baño",
+    "id": "ch_dormitorioBano"
+  },
+  {
+    "label": "Balcón",
+    "id": "ch_balcon"
+  }
+]

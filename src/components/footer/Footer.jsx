@@ -1,7 +1,6 @@
 import React from 'react'
 import { Box, Grid, makeStyles } from '@material-ui/core'
 
-import '../../App.css'
 import MapFooter from './MapFooter'
 
 const useStyles = makeStyles((theme) => ({

@@ -40,7 +40,6 @@ const MapFooter = ({ menuType }) => {
   useEffect(() => {
     if (menuType === 'SocialNetworks') {
       setType(SocialNetworksItems)
-      console.log('Sirve')
     } else {
       setType(ContactsItems)
     }

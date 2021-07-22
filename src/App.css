@@ -1,1 +1,9 @@
+.subtitleText {
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 1rem !important;
+}
 
+.bodyText {
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 0.9rem !important;
+}

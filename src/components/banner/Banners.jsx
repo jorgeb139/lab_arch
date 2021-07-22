@@ -47,8 +47,8 @@ const Banner = ({ bannerId, tittle, textBody, textButton }) => {
   const classes = useStyles()
 
   return (
-    <Grid Container xs={12}>
-      <Grid xs={12} className={clsx(
+    <Grid container>
+      <Grid item xs={12} className={clsx(
         classes.Banner,
         {
           [classes.Inicio]: bannerId === 'Inicio',
@@ -59,7 +59,7 @@ const Banner = ({ bannerId, tittle, textBody, textButton }) => {
           [classes.Portafolio]: bannerId === 'Portafolio',
           [classes.Faqs]: bannerId === 'Faqs'
         }
-      )} >
+      )}>
       </Grid>
       {tittle ? (<DialogBox tittle={tittle} textBody={textBody} textButton={textButton}/>) : []}
     </Grid>

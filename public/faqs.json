@@ -1,0 +1,27 @@
+[
+  {
+    "question": "Pregunta 1",
+    "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum consectetur arcu. Ut rutrum ligula eu venenatis vulputate. Nunc consequat est tincidunt enim egestas, et pharetra magna hendrerit. Duis lacinia, ante a elementum vulputate, ante odio posuere lorem, in vestibulum nisl leo a mauris. Vestibulum ante ipsum primis in faucibus.",
+    "id": "1"
+  },
+  {
+    "question": "Pregunta 2",
+    "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum consectetur arcu. Ut rutrum ligula eu venenatis vulputate. Nunc consequat est tincidunt enim egestas, et pharetra magna hendrerit. Duis lacinia, ante a elementum vulputate, ante odio posuere lorem, in vestibulum nisl leo a mauris. Vestibulum ante ipsum primis in faucibus.",
+    "id": "2"
+  },
+  {
+    "question": "Pregunta 3",
+    "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum consectetur arcu. Ut rutrum ligula eu venenatis vulputate. Nunc consequat est tincidunt enim egestas, et pharetra magna hendrerit. Duis lacinia, ante a elementum vulputate, ante odio posuere lorem, in vestibulum nisl leo a mauris. Vestibulum ante ipsum primis in faucibus.",
+    "id": "3"
+  },
+  {
+    "question": "Pregunta 4",
+    "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum consectetur arcu. Ut rutrum ligula eu venenatis vulputate. Nunc consequat est tincidunt enim egestas, et pharetra magna hendrerit. Duis lacinia, ante a elementum vulputate, ante odio posuere lorem, in vestibulum nisl leo a mauris. Vestibulum ante ipsum primis in faucibus.",
+    "id": "4"
+  },
+  {
+    "question": "Pregunta 5",
+    "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum consectetur arcu. Ut rutrum ligula eu venenatis vulputate. Nunc consequat est tincidunt enim egestas, et pharetra magna hendrerit. Duis lacinia, ante a elementum vulputate, ante odio posuere lorem, in vestibulum nisl leo a mauris. Vestibulum ante ipsum primis in faucibus.",
+    "id": "5"
+  }
+]

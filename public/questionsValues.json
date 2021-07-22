@@ -1,0 +1,44 @@
+[
+  {
+    "placeholder": "Nombre y apellido",
+    "id": "q_names",
+    "title": "¿Cuál es tu nombre?",
+    "type": "text",
+    "name": "names"
+  },
+  {
+    "placeholder": "Tu email",
+    "id": "q_email",
+    "title": "¿A que correo electrónico podemos escribirte?",
+    "type": "email",
+    "name": "email"
+  },
+  {
+    "placeholder": "9########",
+    "id": "q_phone",
+    "title": "¿A qué número de teléfono podemos llamarte?",
+    "type": "text",
+    "name": "phone"
+  },
+  {
+    "placeholder": "Madera, hormigón armado, acero, mixto (explique)",
+    "id": "q_materiality",
+    "title": "¿Cuál será la materialidad predominante?",
+    "type": "text",
+    "name": "materiality"
+  },
+  {
+    "placeholder": "m2",
+    "id": "q_sqrMt",
+    "title": "¿Cuántos metros cuadrados estimas que tendrá el diseño?",
+    "type": "text",
+    "name": "sqrMt"
+  },
+  {
+    "placeholder": "Residencial, comercial, industrial, educativo, otro (comente)",
+    "id": "q_typeEdification",
+    "title": "¿Qué tipo de edificación tienes en mente?",
+    "type": "text",
+    "name": "typeEdification"
+  }
+]

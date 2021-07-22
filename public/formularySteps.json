@@ -1,0 +1,17 @@
+[
+  {
+    "step": 1,
+    "title": "!Queremos conocerte!",
+    "bodyText": "El siguiente formulario nos ayudará a conocerte a ti y tus necesidades, así podremos hacer un análisis previo de tu proyecto y ofrecerte una respuesta personalizada."
+  },
+  {
+    "step": 2,
+    "title": "Respuesta en menos de 72 horas",
+    "bodyText": "Una vez completes el formulario, analizaremos tus requerimientos y en menos de 72 horas te enviaremos una cotización que se adapte a tus necesidades."
+  },
+  {
+    "step": 3,
+    "title": "Rellena el formulario ahora",
+    "bodyText": "No pierdas más tiempo, entre más rápido completes el formulario, más rápido podremos trabajar juntos."
+  }
+]

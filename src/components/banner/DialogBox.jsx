@@ -9,7 +9,7 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down('sm')]: {
       marginLeft: '6%'
     },
-    background: 'rgba(229, 229, 229, 0.8)',
+    background: 'rgba(229, 229, 229, 0.9)',
     borderRadius: '10px',
     minWidth: '350px',
     [theme.breakpoints.down('sm')]: {
@@ -18,30 +18,23 @@ const useStyles = makeStyles((theme) => ({
     boxShadow: '2px 2px 4px 1px rgba(0, 0, 0, 0.25)'
   },
   textTittle: {
-    fontSize: '1.7rem',
     [theme.breakpoints.down('sm')]: {
       fontSize: '1.4rem'
     },
-    fontWeight: 'bold',
-    padding: '20px 20px 10px 20px',
+    padding: '30px 20px 10px 20px',
     textAlign: 'center',
     marginLeft: '20px',
-    marginRight: '20px',
-    fontFamily: 'Montserrat, sans-serif;',
-    color: '#3B3B3B'
+    marginRight: '20px'
   },
   textBody: {
-    padding: '0px 40px 15px 40px',
+    padding: '0px 40px 30px 40px',
     [theme.breakpoints.down('sm')]: {
-      padding: '0px 0px 15px 0px'
+      padding: '0px 0px 30px 0px'
     },
-    fontSize: '0.9rem',
     [theme.breakpoints.down('sm')]: {
-      fontSize: '0.8rem'
+      fontSize: '0.9rem'
     },
-    textAlign: 'justify',
-    fontFamily: 'Montserrat, sans-serif;',
-    color: '#3F3F3F'
+    textAlign: 'justify'
   },
   containerCTA: {
     padding: '15px 30px 30px 30px',
@@ -79,10 +72,10 @@ const DialogBox = ({ tittle, textBody, textButton }) => {
     <>
       <Grid container>
         <Grid item md={5} sm={6} xs={6} className={classes.cuadro}>
-          <Typography className={classes.textTittle}>
+          <Typography variant='h1'className={classes.textTittle}>
             {tittle}
           </Typography>
-          <Typography className={classes.textBody}>
+          <Typography variant='h2' className={classes.textBody}>
             {textBody}
           </Typography >
           {textButton
