@@ -1,0 +1,23 @@
+[
+  {
+    "title": "¿TIENES DUDAS?",
+    "textBody": "Sobre nuestro proceso de trabajo, etapas de proyecto, ¿Cómo y por dónde empezar?, no te preocupes, ingresa a nuestra sección de preguntas frecuentes. Si aún te quedan preguntas no dudes en ponerte en contacto con nostros.",
+    "textButton": "SABER MÁS",
+    "route": "/proceso",
+    "id": "1"
+  },
+  {
+    "title": "¿QUIERES UNA COTIZACIÓN?",
+    "textBody": "Puedes encontrar proyectos en los que trabajamos en el pasado y actualmente para que te hagas una idea de cuál nuestro enfoque al momento de diseñar y saber si se adapta a lo que buscas.",
+    "textButton": "¡LOS VERÉ!",
+    "route": "/portafolio",
+    "id": "2"
+  },
+  {
+    "title": "¿QUIERES CONOCER NUESTRO ESTILO?",
+    "textBody": "Sobre nuestro proceso de trabajo, etapas de proyecto, ¿Cómo y por dónde empezar?, no te preocupes, ingresa a nuestra sección de preguntas frecuentes. Si aún te quedan preguntas no dudes en ponerte en contacto con nostros.",
+    "textButton": "¡ALLÁ VOY!",
+    "route": "/faqs",
+    "id": "3"
+  }
+]

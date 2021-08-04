@@ -38,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
     paddingBottom: 15
   },
   buttonContainer: {
-    paddingRight: valueMarginRight,
+    paddingRight: valueMarginRight
   },
   button: {
     fontWeight: 'bold',
@@ -58,19 +58,19 @@ const useStyles = makeStyles((theme) => ({
   bodyText: {
     color: '#848484'
   },
-  questionText:{
+  questionText: {
     marginBottom: 8,
-    marginTop: 10,
+    marginTop: 10
   }
 }))
 
 const NewCheckbox = withStyles({
   root: {
     '&$checked': {
-      color: '#FDB0A7',
-    },
+      color: '#FDB0A7'
+    }
   },
-  checked: {},
+  checked: {}
 })((props) => <Checkbox color="default" {...props} />)
 
 const FormToWork = () => {
@@ -99,7 +99,6 @@ const FormToWork = () => {
     mode: 'onChange'
   })
 
-  
   const handleChangeCheckBox = (event) => {
     let aux = null
     if (checkBoxSelected.includes(event.target.id)) {
@@ -114,7 +113,7 @@ const FormToWork = () => {
     }
     setCheckBoxSelected(aux)
   }
-  
+
   const handleChangeDropdown = (event) => {
     setQuestionsValues({
       ...questionsValues,
@@ -123,7 +122,6 @@ const FormToWork = () => {
   }
 
   const onSubmit = values => {
-    console.log('Valores', values)
     setQuestionsValues({
       ...questionsValues,
       values
@@ -195,7 +193,7 @@ const FormToWork = () => {
           )}
         />
         <div>
-          <Typography style={{ paddingBottom: 25}} variant='body1'>
+          <Typography style={{ paddingBottom: 25 }} variant='body1'>
             Cuéntanos ¿Cuáles y cuántas áreas tendrá tu proyecto?
           </Typography>
         </div>
