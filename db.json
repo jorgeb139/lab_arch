@@ -25,7 +25,7 @@
       "awayTeamScore": 0,
       "awayGoals": [],
       "date": "2018-06-18T18:00:00.000Z",
-      "status" : "FINISHED" // "FINISHED", "IN_PLAY", "NOT_STARTED"
+      "status" : "FINISHED" 
     },
     { 
       "id": 2,
