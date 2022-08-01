@@ -115,7 +115,9 @@
       "status": "NOT STARTED"
    }
 ],
-  "profile": {
-    "name": "typicode"
+  "user": {
+    "id" = 1,
+    "email": "jorgeb139@gmail.com",
+    "password": "123"
   }
 }
