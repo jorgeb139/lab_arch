@@ -115,6 +115,116 @@
       "status": "NOT STARTED"
    }
 ],
+"groups": [
+   {
+      "id": 1,
+      "group": "A",
+      "countries": [
+         {
+            "id": 1,
+            "country": "Qatar",
+            "gamesPlayed": "1",
+            "gamesWon": "1",
+            "gamesWon": "0",
+            "gamesWon": "0",
+            "goalsFavor": "3",
+            "goalsAgainst": "1",
+            "goalsDifference": "+2"
+            "points": "3"
+         },
+         {
+            "id": 2,
+            "country": "Ecuador",
+            "gamesPlayed": "1",
+            "gamesWon": "0",
+            "gamesWon": "1",
+            "gamesWon": "0",
+            "goalsFavor": "1",
+            "goalsAgainst": "1",
+            "goalsDifference": "0"
+            "points": "1"
+         },
+         {
+            "id": 3,
+            "country": "Senegal",
+            "gamesPlayed": "1",
+            "gamesWon": "0",
+            "gamesWon": "1",
+            "gamesWon": "0",
+            "goalsFavor": "1",
+            "goalsAgainst": "1",
+            "goalsDifference": "0"
+            "points": "1"
+         },
+         {
+            "id": 4,
+            "country": "Paises Bajos",
+            "gamesPlayed": "1",
+            "gamesWon": "0",
+            "gamesWon": "0",
+            "gamesWon": "1",
+            "goalsFavor": "1",
+            "goalsAgainst": "3",
+            "goalsDifference": "-2"
+            "points": "0"
+         },
+      ],
+   },
+   {
+      "id": 2,
+      "group": "B",
+      "countries": [
+         {
+            "id": 1,
+            "country": "Inglaterra",
+            "gamesPlayed": "1",
+            "gamesWon": "1",
+            "gamesWon": "0",
+            "gamesWon": "0",
+            "goalsFavor": "3",
+            "goalsAgainst": "1",
+            "goalsDifference": "+2"
+            "points": "3"
+         },
+         {
+            "id": 2,
+            "country": "Iran",
+            "gamesPlayed": "1",
+            "gamesWon": "0",
+            "gamesWon": "1",
+            "gamesWon": "0",
+            "goalsFavor": "1",
+            "goalsAgainst": "1",
+            "goalsDifference": "0"
+            "points": "1"
+         },
+         {
+            "id": 3,
+            "country": "Estados Unidos",
+            "gamesPlayed": "1",
+            "gamesWon": "0",
+            "gamesWon": "1",
+            "gamesWon": "0",
+            "goalsFavor": "1",
+            "goalsAgainst": "1",
+            "goalsDifference": "0"
+            "points": "1"
+         },
+         {
+            "id": 4,
+            "country": "Gales",
+            "gamesPlayed": "1",
+            "gamesWon": "0",
+            "gamesWon": "0",
+            "gamesWon": "1",
+            "goalsFavor": "1",
+            "goalsAgainst": "3",
+            "goalsDifference": "-2"
+            "points": "0"
+         },
+      ],
+   },
+],
   "user": {
     "userId": 1,
     "title": "jorgeb139@gmail.com",
