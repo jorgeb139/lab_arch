@@ -237,56 +237,80 @@
       "matches": [
         {
           "id": 1,
-          "date": "20/11/2022",
+          "date":
+            {
+              "day":"20",
+              "month":"NOV"
+            },
           "home": "Qatar",
-          "homeflag": "https://mega.nz/file/90NHQA4a#opIHOFOhTDpFzM056ln3nneM5G2-qtimMWQ4mg96_m8",
+          "homeflag": "band",
           "away": "Ecuador",
-          "awayflag": "https://mega.nz/file/BxFAmZwA#6eg7egrpoZPps0NF-KnNkXYS7RfnGyxmjuWdCQ5xAbk",
+          "awayflag": "band",
           "time": "13:00"
         },
         {
           "id": 2,
-          "date": "21/11/2022",
+          "date":
+            {
+              "day":"21",
+              "month":"NOV"
+            },
           "home": "Senegal",
-          "homeflag": "https://mega.nz/file/Up1CUT7Y#tO98WaPdYY6XEilFZ39HbrhV1uDZkg8VMo7LgbgUB68",
+          "homeflag": "band",
           "away": "Paises Bajos",
-          "awayflag": "https://mega.nz/file/lkMzFSoZ#F4lKBAvbHZG2AxtlLspR6ZNi3HRIeX4oWaHuLxXVaDw",
+          "awayflag": "band",
           "time": "13:00"
         },
         {
           "id": 3,
-          "date": "25/11/2022",
+          "date":
+            {
+              "day":"25",
+              "month":"NOV"
+            },
           "home": "Qatar",
-          "homeflag": "https://mega.nz/file/90NHQA4a#opIHOFOhTDpFzM056ln3nneM5G2-qtimMWQ4mg96_m8",
+          "homeflag": "band",
           "away": "Senegal",
-          "awayflag": "https://mega.nz/file/Up1CUT7Y#tO98WaPdYY6XEilFZ39HbrhV1uDZkg8VMo7LgbgUB68",
+          "awayflag": "band",
           "time": "10:00"
         }, 
         {
           "id": 4,
-          "date": "25/11/2022",
+          "date":
+            {
+              "day":"25",
+              "month":"NOV"
+            },
           "home": "Paises Bajos",
-          "homeflag": "https://mega.nz/file/lkMzFSoZ#F4lKBAvbHZG2AxtlLspR6ZNi3HRIeX4oWaHuLxXVaDw",
+          "homeflag": "band",
           "away": "Ecuador",
-          "awayflag": "https://mega.nz/file/BxFAmZwA#6eg7egrpoZPps0NF-KnNkXYS7RfnGyxmjuWdCQ5xAbk",
+          "awayflag": "band",
           "time": "13:00"
         },
         {
           "id": 5,
-          "date": "29/11/2022",
+          "date":
+            {
+              "day":"29",
+              "month":"NOV"
+            },
           "home": "Ecuador",
-          "homeflag": "https://mega.nz/file/BxFAmZwA#6eg7egrpoZPps0NF-KnNkXYS7RfnGyxmjuWdCQ5xAbk",
+          "homeflag": "band",
           "away": "Senegal",
-          "awayflag": "https://mega.nz/file/Up1CUT7Y#tO98WaPdYY6XEilFZ39HbrhV1uDZkg8VMo7LgbgUB68",
+          "awayflag": "band",
           "time": "12:00"
         }, 
         {
           "id": 6,
-          "date": "29/11/2022",
+          "date":
+            {
+              "day":"29",
+              "month":"NOV"
+            },
           "home": "Paises Bajos",
-          "homeflag": "https://mega.nz/file/lkMzFSoZ#F4lKBAvbHZG2AxtlLspR6ZNi3HRIeX4oWaHuLxXVaDw",
+          "homeflag": "band",
           "away": "Qatar",
-          "awayflag": "https://mega.nz/file/90NHQA4a#opIHOFOhTDpFzM056ln3nneM5G2-qtimMWQ4mg96_m8",
+          "awayflag": "band",
           "time": "12:00"
         }
       ]
@@ -297,56 +321,80 @@
       "matches": [
         {
           "id": 1,
-          "date": "21/11/2022",
+          "date":
+            {
+              "day":"21",
+              "month":"NOV"
+            },
           "home": "Inglaterra",
-          "homeflag": "https://mega.nz/file/FltHwDTR#QWJdTyU4xztvlOivRZ0_1hKaX-Xqv5ipqSUjjrFpZOw",
+          "homeflag": "band",
           "away": "Iran",
-          "awayflag": "https://mega.nz/file/41tlSDCQ#_EHLZdz-xdDt7YlTFyJw-L8Wa9pNQym57VAfC0Y0A5k",
+          "awayflag": "band",
           "time": "10:00"
         },
         {
           "id": 2,
-          "date": "21/11/2022",
+          "date":
+            {
+              "day":"21",
+              "month":"NOV"
+            },
           "home": "Estados Unidos",
-          "homeflag": "https://mega.nz/file/ts1U2Q7b#cFHjJmhHlKjBQQ3W-Ntu9jNw8DBSq5dgyXVi0qYl6LI",
+          "homeflag": "band",
           "away": "Gales",
-          "awayflag": "https://mega.nz/file/o4sk2KoB#Vt1jlBLtSLQ-_86TTZ7l097sno181yLNfHlH3iud-sI",
+          "awayflag": "band",
           "time": "16:00"
         },
         {
           "id": 3,
-          "date": "25/11/2022",
+          "date":
+            {
+              "day":"25",
+              "month":"NOV"
+            },
           "home": "Gales",
-          "homeflag": "https://mega.nz/file/o4sk2KoB#Vt1jlBLtSLQ-_86TTZ7l097sno181yLNfHlH3iud-sI",
+          "homeflag": "band",
           "away": "Iran",
-          "awayflag": "https://mega.nz/file/41tlSDCQ#_EHLZdz-xdDt7YlTFyJw-L8Wa9pNQym57VAfC0Y0A5k",
+          "awayflag": "band",
           "time": "07:00"
         }, 
         {
           "id": 4,
-          "date": "25/11/2022",
+          "date":
+            {
+              "day":"25",
+              "month":"NOV"
+            },
           "home": "Inglaterra",
-          "homeflag": "https://mega.nz/file/FltHwDTR#QWJdTyU4xztvlOivRZ0_1hKaX-Xqv5ipqSUjjrFpZOw",
+          "homeflag": "band",
           "away": "Estados Unidos",
-          "awayflag": "https://mega.nz/file/ts1U2Q7b#cFHjJmhHlKjBQQ3W-Ntu9jNw8DBSq5dgyXVi0qYl6LI",
+          "awayflag": "band",
           "time": "16:00"
         },
         {
           "id": 5,
-          "date": "29/11/2022",
+          "date":
+            {
+              "day":"29",
+              "month":"NOV"
+            },
           "home": "Iran",
-          "homeflag": "https://mega.nz/file/41tlSDCQ#_EHLZdz-xdDt7YlTFyJw-L8Wa9pNQym57VAfC0Y0A5k",
+          "homeflag": "band",
           "away": "Estados Unidos",
-          "awayflag": "https://mega.nz/file/ts1U2Q7b#cFHjJmhHlKjBQQ3W-Ntu9jNw8DBSq5dgyXVi0qYl6LI",
+          "awayflag": "band",
           "time": "16:00"
         }, 
         {
           "id": 6,
-          "date": "29/11/2022",
+          "date":
+            {
+              "day":"29",
+              "month":"NOV"
+            },
           "home": "Gales",
-          "homeflag": "https://mega.nz/file/o4sk2KoB#Vt1jlBLtSLQ-_86TTZ7l097sno181yLNfHlH3iud-sI",
+          "homeflag": "band",
           "away": "Inglaterra",
-          "awayflag": "https://mega.nz/file/FltHwDTR#QWJdTyU4xztvlOivRZ0_1hKaX-Xqv5ipqSUjjrFpZOw",
+          "awayflag": "band",
           "time": "16:00"
         }
       ]
