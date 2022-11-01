@@ -238,62 +238,44 @@
         {
           "id": 1,
           "date": "20/11/2022",
-          "daymatches":[
-            {
-              "id": 1,
-              "home": "Qatar",
-              "away": "Ecuador",
-              "time": "13:00"
-            }
-          ]
+          "home": "Qatar",
+          "away": "Ecuador",
+          "time": "13:00"
         },
         {
           "id": 2,
           "date": "21/11/2022",
-          "daymatches":[
-            {
-              "id": 1,
-              "home": "Senegal",
-              "away": "Paises Bajos",
-              "time": "13:00"
-            }
-          ]
+          "home": "Senegal",
+          "away": "Paises Bajos",
+          "time": "13:00"
         },
         {
           "id": 3,
           "date": "25/11/2022",
-          "daymatches":[
-            {
-              "id": 1,
-              "home": "Qatar",
-              "away": "Senegal",
-              "time": "10:00"
-            }, 
-            {
-              "id": 2,
-              "home": "Paises Bajos",
-              "away": "Ecuador",
-              "time": "13:00"
-            }
-          ]
-        },
+          "home": "Qatar",
+          "away": "Senegal",
+          "time": "10:00"
+        }, 
         {
           "id": 4,
+          "date": "25/11/2022",
+          "home": "Paises Bajos",
+          "away": "Ecuador",
+          "time": "13:00"
+        },
+        {
+          "id": 5,
           "date": "29/11/2022",
-          "daymatches":[
-            {
-              "id": 1,
-              "home": "Ecuador",
-              "away": "Senegal",
-              "time": "12:00"
-            }, 
-            {
-              "id": 2,
-              "home": "Paises Bajos",
-              "away": "Qatar",
-              "time": "12:00"
-            }
-          ]
+          "home": "Ecuador",
+          "away": "Senegal",
+          "time": "12:00"
+        }, 
+        {
+          "id": 6,
+          "date": "29/11/2022",
+          "home": "Paises Bajos",
+          "away": "Qatar",
+          "time": "12:00"
         }
       ]
     },
@@ -304,64 +286,47 @@
         {
           "id": 1,
           "date": "21/11/2022",
-          "daymatches":[
-            {
-              "id": 1,
-              "home": "Inglaterra",
-              "away": "Iran",
-              "time": "10:00"
-            }
-          ]
+          "home": "Inglaterra",
+          "away": "Iran",
+          "time": "10:00"
         },
         {
           "id": 2,
           "date": "21/11/2022",
-          "daymatches":[
-            {
-              "id": 1,
-              "home": "Estados Unidos",
-              "away": "Gales",
-              "time": "16:00"
-            }
-          ]
+          "home": "Estados Unidos",
+          "away": "Gales",
+          "time": "16:00"
         },
         {
           "id": 3,
           "date": "25/11/2022",
-          "daymatches":[
-            {
-              "id": 1,
-              "home": "Gales",
-              "away": "Iran",
-              "time": "07:00"
-            }, 
-            {
-              "id": 2,
-              "home": "Inglaterra",
-              "away": "Estados Unidos",
-              "time": "16:00"
-            }
-          ]
-        },
+          "home": "Gales",
+          "away": "Iran",
+          "time": "07:00"
+        }, 
         {
           "id": 4,
+          "date": "25/11/2022",
+          "home": "Inglaterra",
+          "away": "Estados Unidos",
+          "time": "16:00"
+        },
+        {
+          "id": 5,
           "date": "29/11/2022",
-          "daymatches":[
-            {
-              "id": 1,
-              "home": "Iran",
-              "away": "Estados Unidos",
-              "time": "16:00"
-            }, 
-            {
-              "id": 2,
-              "home": "Gales",
-              "away": "Inglaterra",
-              "time": "16:00"
-            }
-          ]
+          "home": "Iran",
+          "away": "Estados Unidos",
+          "time": "16:00"
+        }, 
+        {
+          "id": 6,
+          "date": "29/11/2022",
+          "home": "Gales",
+          "away": "Inglaterra",
+          "time": "16:00"
         }
       ]
     }
   ]
 }
+
