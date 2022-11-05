@@ -1,125 +1,202 @@
 {
-  "games": [
+  "results": [
     {
-      "id": 1,
-      "homeTeam": "Brasil",
-      "homeTeamScore": 3,
-      "homeGoals": [
+      "userId": 1,
+      "pronostics": [
         {
-          "id": 1,
-          "player": "Neymar Jr.",
-          "minute": "10"
+          "groupId": 1,
+          "matches": [
+            {
+              "matchId": 1,
+              "homeGoals": 3,
+              "awayGoals": 1,
+              "points": 6
+            },
+            {
+              "matchId": 2,
+              "homeGoals": 1,
+              "awayGoals": 4,
+              "points": 0
+            },
+            {
+              "matchId": 3,
+              "homeGoals": 5,
+              "awayGoals": 1,
+              "points": 0
+            },
+            {
+              "matchId": 4,
+              "homeGoals": 1,
+              "awayGoals": 1,
+              "points": 0
+            },
+            {
+              "matchId": 5,
+              "homeGoals": 2,
+              "awayGoals": 1,
+              "points": 0
+            },
+            {
+              "matchId": 6,
+              "homeGoals": 4,
+              "awayGoals": 0,
+              "points": 0
+            }
+          ]
         },
         {
-          "id": 2,
-          "player": "Neymar Jr.",
-          "minute": "42"
-        },
-        {
-          "id": 3,
-          "player": "Lucas Paquetá",
-          "minute": "73"
+          "groupId": 2,
+          "matches": [
+            {
+              "matchId": 1,
+              "homeGoals": 2,
+              "awayGoals": 3,
+              "points": 0
+            },
+            {
+              "matchId": 2,
+              "homeGoals": 1,
+              "awayGoals": 4,
+              "points": 0
+            },
+            {
+              "matchId": 3,
+              "homeGoals": 5,
+              "awayGoals": 1,
+              "points": 0
+            },
+            {
+              "matchId": 4,
+              "homeGoals": 1,
+              "awayGoals": 1,
+              "points": 0
+            },
+            {
+              "matchId": 5,
+              "homeGoals": 2,
+              "awayGoals": 1,
+              "points": 0
+            },
+            {
+              "matchId": 6,
+              "homeGoals": 4,
+              "awayGoals": 0,
+              "points": 0
+            }
+          ]
         }
-      ],
-      "awayTeam": "Croacia",
-      "awayTeamScore": 0,
-      "awayGoals": [],
-      "date": "2018-06-18T18:00:00.000Z",
-      "status": "FINISHED"
+      ]
     },
     {
-      "id": 2,
-      "homeTeam": "Argentina",
-      "homeTeamScore": 1,
-      "homeGoals": [
+      "userId": 2,
+      "pronostics": [
         {
-          "id": 1,
-          "player": "Lionel Messi",
-          "minute": "89"
+          "groupId": 1,
+          "matches": [
+            {
+              "matchId": 1,
+              "homeGoals": 2,
+              "awayGoals": 3,
+              "points": 0
+            },
+            {
+              "matchId": 2,
+              "homeGoals": 1,
+              "awayGoals": 4,
+              "points": 0
+            },
+            {
+              "matchId": 3,
+              "homeGoals": 5,
+              "awayGoals": 1,
+              "points": 0
+            },
+            {
+              "matchId": 4,
+              "homeGoals": 1,
+              "awayGoals": 1,
+              "points": 0
+            },
+            {
+              "matchId": 5,
+              "homeGoals": 2,
+              "awayGoals": 1,
+              "points": 0
+            },
+            {
+              "matchId": 6,
+              "homeGoals": 4,
+              "awayGoals": 0,
+              "points": 0
+            }
+          ]
+        },
+        {
+          "groupId": 2,
+          "matches": [
+            {
+              "matchId": 1,
+              "homeGoals": 2,
+              "awayGoals": 3,
+              "points": 0
+            },
+            {
+              "matchId": 2,
+              "homeGoals": 1,
+              "awayGoals": 4,
+              "points": 0
+            },
+            {
+              "matchId": 3,
+              "homeGoals": 5,
+              "awayGoals": 1,
+              "points": 0
+            },
+            {
+              "matchId": 4,
+              "homeGoals": 1,
+              "awayGoals": 1,
+              "points": 0
+            },
+            {
+              "matchId": 5,
+              "homeGoals": 2,
+              "awayGoals": 1,
+              "points": 0
+            },
+            {
+              "matchId": 6,
+              "homeGoals": 4,
+              "awayGoals": 0,
+              "points": 0
+            }
+          ]
         }
-      ],
-      "awayTeam": "Venezuela",
-      "awayTeamScore": 5,
-      "awayGoals": [
-        {
-          "id": 1,
-          "player": "Salomón Rondón",
-          "minute": "1"
-        },
-        {
-          "id": 2,
-          "player": "Salomón Rondón",
-          "minute": "2"
-        },
-        {
-          "id": 3,
-          "player": "Nathaly Varela",
-          "minute": "5"
-        },
-        {
-          "id": 4,
-          "player": "Raúl Febres",
-          "minute": "7"
-        },
-        {
-          "id": 5,
-          "player": "Jorge Burguera",
-          "minute": "13"
-        }
-      ],
-      "date": "2018-07-18T18:00:00.000Z",
-      "status": "FINISHED"
-    },
-    {
-      "id": 3,
-      "homeTeam": "Francia",
-      "homeTeamScore": 2,
-      "homeGoals": [
-        {
-          "id": 1,
-          "player": "Oliver Giroud",
-          "minute": "45"
-        },
-        {
-          "id": 2,
-          "player": "Theo Hernandez",
-          "minute": "82"
-        }
-      ],
-      "awayTeam": "Polonia",
-      "awayTeamScore": 2,
-      "awayGoals": [
-        {
-          "id": 1,
-          "player": "Robert Lewandowski",
-          "minute": "89"
-        },
-        {
-          "id": 2,
-          "player": "Robert Lewandowski",
-          "minute": "92"
-        }
-      ],
-      "date": "2018-08-18T18:00:00.000Z",
-      "status": "PLAYING"
-    },
-    {
-      "id": 4,
-      "homeTeam": "Portugal",
-      "homeTeamScore": 0,
-      "homeGoals": [],
-      "awayTeam": "España",
-      "awayTeamScore": 0,
-      "awayGoals": [],
-      "date": "2018-09-18T18:00:00.000Z",
-      "status": "NOT STARTED"
+      ]
     }
   ],
-  "user": {
-    "userId": 1,
-    "title": "jorgeb139@gmail.com",
-    "body": "123"
-  },
+  "users": [
+    {
+      "userId": 1,
+      "displayName": "Jorge Burguera",
+      "email": "jorgeb139@gmail.com",
+      "lastLogin": "28 de septiembre de 2022, 19:12:07 UTC-3",
+      "loginCount": 1,
+      "registerDate": "28 de septiembre de 2022, 19:12:07 UTC-3",
+      "userMembership": "Free",
+      "userValidate": false
+    },
+    {
+      "userId": 2,
+      "displayName": "Raúl Febres",
+      "email": "rfebrescorderor@gmail.com",
+      "lastLogin": "28 de septiembre de 2022, 19:12:07 UTC-3",
+      "loginCount": 5,
+      "registerDate": "28 de octubre de 2022, 19:12:07 UTC-3",
+      "userMembership": "Paid",
+      "userValidate": true
+    }
+  ],
   "groups": [
     {
       "id": 1,
@@ -244,9 +321,12 @@
             },
           "home": "Qatar",
           "homeflag": "band",
+          "homeScore": 3,
           "away": "Ecuador",
           "awayflag": "band",
-          "time": "13:00"
+          "awayScore": 1,
+          "time": "13:00",
+          "status": "FINISHED"
         },
         {
           "id": 2,
@@ -257,9 +337,12 @@
             },
           "home": "Senegal",
           "homeflag": "band",
+          "homeScore": 3,
           "away": "Paises Bajos",
           "awayflag": "band",
-          "time": "13:00"
+          "awayScore": 1,
+          "time": "13:00",
+          "status": "PLAYING"
         },
         {
           "id": 3,
@@ -270,9 +353,12 @@
             },
           "home": "Qatar",
           "homeflag": "band",
+          "homeScore": 1,
           "away": "Senegal",
           "awayflag": "band",
-          "time": "10:00"
+          "awayScore": 1,
+          "time": "10:00",
+          "status": "PLAYING"
         }, 
         {
           "id": 4,
@@ -283,9 +369,12 @@
             },
           "home": "Paises Bajos",
           "homeflag": "band",
+          "homeScore": 1,
           "away": "Ecuador",
           "awayflag": "band",
-          "time": "13:00"
+          "awayScore": 1,
+          "time": "13:00",
+          "status": "PLAYING"
         },
         {
           "id": 5,
@@ -296,9 +385,12 @@
             },
           "home": "Ecuador",
           "homeflag": "band",
+          "homeScore": 1,
           "away": "Senegal",
           "awayflag": "band",
-          "time": "12:00"
+          "awayScore": 1,
+          "time": "12:00",
+          "status": "PLAYING"
         }, 
         {
           "id": 6,
@@ -309,9 +401,12 @@
             },
           "home": "Paises Bajos",
           "homeflag": "band",
+          "homeScore": 0,
           "away": "Qatar",
           "awayflag": "band",
-          "time": "12:00"
+          "awayScore": 0,
+          "time": "12:00",
+          "status": "NOT STARTED"
         }
       ]
     },
@@ -328,9 +423,12 @@
             },
           "home": "Inglaterra",
           "homeflag": "band",
+          "homeScore": 0,
           "away": "Iran",
           "awayflag": "band",
-          "time": "10:00"
+          "awayScore": 0,
+          "time": "10:00",
+          "status": "NOT STARTED"
         },
         {
           "id": 2,
@@ -341,9 +439,12 @@
             },
           "home": "Estados Unidos",
           "homeflag": "band",
+          "homeScore": 0,
           "away": "Gales",
           "awayflag": "band",
-          "time": "16:00"
+          "awayScore": 0,
+          "time": "16:00",
+          "status": "NOT STARTED"
         },
         {
           "id": 3,
@@ -354,9 +455,12 @@
             },
           "home": "Gales",
           "homeflag": "band",
+          "homeScore": 0,
           "away": "Iran",
           "awayflag": "band",
-          "time": "07:00"
+          "awayScore": 0,
+          "time": "07:00",
+          "status": "NOT STARTED"
         }, 
         {
           "id": 4,
@@ -367,9 +471,12 @@
             },
           "home": "Inglaterra",
           "homeflag": "band",
+          "homeScore": 0,
           "away": "Estados Unidos",
           "awayflag": "band",
-          "time": "16:00"
+          "awayScore": 0,
+          "time": "16:00",
+          "status": "NOT STARTED"
         },
         {
           "id": 5,
@@ -380,9 +487,12 @@
             },
           "home": "Iran",
           "homeflag": "band",
+          "homeScore": 0,
           "away": "Estados Unidos",
           "awayflag": "band",
-          "time": "16:00"
+          "awayScore": 0,
+          "time": "16:00",
+          "status": "NOT STARTED"
         }, 
         {
           "id": 6,
@@ -393,9 +503,12 @@
             },
           "home": "Gales",
           "homeflag": "band",
+          "homeScore": 0,
           "away": "Inglaterra",
           "awayflag": "band",
-          "time": "16:00"
+          "awayScore": 0,
+          "time": "16:00",
+          "status": "NOT STARTED"
         }
       ]
     }
